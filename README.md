@@ -32,6 +32,8 @@ Die Verschlüsselung verhindert die Klartext-Veröffentlichung des Systemcodes. 
 
 `data.mode` ist `newer` (nur neuere öffentliche Daten), `managed` (geänderte veröffentlichte Daten gezielt übernehmen) oder `preserve`. Optional beschränkt `data.files` die Übernahme, etwa auf `["data/2026.json"]`. Vor Ersetzungen legt die Anwendung lokal Sicherungen an. Interne Tabellen, Sonderfälle und Fotos sind davon ausgenommen.
 
+Große öffentliche Datenstände werden platzsparend als `.json.gz` veröffentlicht und vom Client automatisch zu JSON entpackt. Normale `.json`-Dateien werden weiterhin unterstützt; liegt beides vor, verwendet die Anwendung die unkomprimierte Datei. `config/system.json` bleibt immer direkt lesbar und bearbeitbar. Geänderte Dateien werden anhand ihrer Git-Hashes erkannt: Bei einer reinen Konfigurationsänderung werden vorhandene Datendateien und der unveränderte signierte Programmpatch aus dem lokalen Cache verwendet.
+
 ## Programmänderungen
 
 Programmänderungen werden lokal getestet, anschließend vom Herausgeber verschlüsselt und signiert und als neues Paket veröffentlicht. Die Installationsschlüssel und der private Herausgeberschlüssel dürfen nie in dieses Repository gelangen. Dieses Repository enthält keine Build-Quellen.
