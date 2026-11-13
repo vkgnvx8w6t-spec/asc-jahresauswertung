@@ -6,7 +6,7 @@ Hier liegen ausschließlich maschinenlesbare gemeinsame Einstellungen, öffentli
 
 ## Installation und Updates
 
-Die Anwendung wird einmal über das private Installationspaket installiert. Danach prüft der Desktop-Starter bei jedem Öffnen diesen Kanal. Neue Änderungen werden automatisch übernommen. Ohne Verbindung startet die letzte lokal verfügbare Version. Fehlerhafte oder nicht authentische Programmpakete werden zurückgewiesen; ein Startfehler führt zur vorherigen Version zurück.
+Die Anwendung wird einmal über das private Installationspaket installiert. Danach prüft der Desktop-Starter bei jedem Öffnen diesen Kanal. Ab Programmstand 4.21 wird er auch im laufenden Betrieb normalerweise alle 15 Sekunden über die öffentlichen Git-Referenzen geprüft. Nur geänderte Dateien werden geladen. Nach Signatur-/Integritätsprüfung und isoliertem Probestart übernimmt ein kontrollierter Serverneustart auf demselben Port das Update, sobald laufende Importe und Exporte abgeschlossen sind. Das Fenster lädt automatisch neu. Ein bereits laufender Stand 4.20 benötigt zunächst einen normalen Neustart. Lokale Einstellungen bleiben erhalten; ausdrücklich geänderte managed-Konfigurationen können sie aktualisieren. Ohne Verbindung startet die letzte lokal verfügbare Version. Fehlerhafte oder nicht authentische Programmpakete werden zurückgewiesen; ein Startfehler führt zur vorherigen Version zurück.
 
 `releases/current.json` benennt das aktuelle Programmpaket unter `patches/` und enthält SHA-256-Prüfsummen sowie eine Ed25519-Signatur. Der Client entschlüsselt das AES-256-GCM-Paket ausschließlich lokal mit den Installationsschlüsseln. Persönliche Fotos verbleiben im privaten Installationspaket und auf dem jeweiligen Rechner.
 
