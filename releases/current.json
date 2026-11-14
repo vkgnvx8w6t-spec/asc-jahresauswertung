@@ -5,10 +5,10 @@
   "release": "4.24",
   "keyId": "24e1fe7496ac3b3b",
   "algorithm": "AES-256-GCM",
-  "nonce": "vdpisKIDBNirzp3r",
-  "path": "patches/62ca99beafda159ce5a1944e8a2d97497e0195a8de643bf3e95417a4e0639653.ascpatch",
-  "ciphertextSha256": "62ca99beafda159ce5a1944e8a2d97497e0195a8de643bf3e95417a4e0639653",
-  "plaintextSha256": "cd7156a718196029bc8c3dd3ab0bc8e8cf680d6a23e2cf717bc271cebf905aef",
-  "bytes": 401720,
-  "signature": "VEvjMRCBk7qhkgb4+RM/IfpQJVNPWQkAJpPz/XCyqdvZsPYgfEHWKEzlMpCTa+KERghg9YREpwRtU15Ymxm9Cw=="
+  "nonce": "3cVjcTKVu8EVPAM1",
+  "path": "patches/ab0269c69d92ca1ba776c6ba11e40047c4a6fdf6515872bbf2f6c76a39273282.ascpatch",
+  "ciphertextSha256": "ab0269c69d92ca1ba776c6ba11e40047c4a6fdf6515872bbf2f6c76a39273282",
+  "plaintextSha256": "54344ef71eadc2dc0d1b03b928645b50f923caffd9f42b22aaadd51d50876059",
+  "bytes": 402195,
+  "signature": "pAQz6ITxkThn6OI9jl4yeq4Wa237oEfcJwUEfBMQfG45es5dpbf77X2m2RfM8/comh6IIvi18gowxf7mAXeaAQ=="
 }
