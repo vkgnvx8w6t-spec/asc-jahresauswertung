@@ -36,5 +36,7 @@
 *manual-*
 *special-*
 *versandprofil*
+!profiles/
+!profiles/*.json
 _updates/
 __pycache__/
