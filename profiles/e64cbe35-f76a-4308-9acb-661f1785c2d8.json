@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "e64cbe35-f76a-4308-9acb-661f1785c2d8",
-  "revision": "7",
+  "revision": "8",
   "label": "Gerät E64CBE35",
   "settings": {
     "design": {
@@ -355,9 +355,9 @@
         }
       },
       "2026": {
-        "countMode": "all",
+        "countMode": "day",
         "gender": "male",
-        "standardCountMode": "all",
+        "standardCountMode": "day",
         "qualificationWindow": "season",
         "rulesOld": {
           "progressive": false,
@@ -374,7 +374,7 @@
           "U18",
           "U20"
         ],
-        "daily": false,
+        "daily": true,
         "rules": {
           "progressive": true,
           "qualification": true,
