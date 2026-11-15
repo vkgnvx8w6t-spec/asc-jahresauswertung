@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "deviceId": "a893b10b-0884-40a6-aa8d-833477e0e093",
+  "revision": "1",
+  "label": "Prüfprofil Neuanmeldung",
+  "settings": {
+    "design": {
+      "theme": "system",
+      "templates": {
+        "system": "glass",
+        "light": "glass",
+        "dark": "glass"
+      },
+      "profiles": {
+        "system": {
+          "clear": {
+            "enabled": true,
+            "opacity": 15,
+            "glass": 15,
+            "tableGlass": 5,
+            "drawerGlass": 24,
+            "borderGlass": 10,
+            "navGlass": 8,
+            "photoBlur": 0,
+            "panelBlur": 0,
+            "brightness": 100,
+            "textBrightness": 75,
+            "saturation": 100,
+            "density": "normal",
+            "interval": 60
+          },
+          "glass": {
+            "enabled": true,
+            "opacity": 60,
+            "glass": 63,
+            "tableGlass": 22,
+            "drawerGlass": 24,
+            "borderGlass": 18,
+            "navGlass": 16,
+            "photoBlur": 0,
+            "panelBlur": 8,
+            "brightness": 106,
+            "textBrightness": 75,
+            "saturation": 108,
+            "density": "normal",
+            "interval": 60
+          },
+          "photo": {
+            "enabled": true,
+            "opacity": 85,
+            "glass": 92,
+            "tableGlass": 70,
+            "drawerGlass": 24,
+            "borderGlass": 77,
+            "navGlass": 70,
+            "photoBlur": 0,
+            "panelBlur": 4,
+            "brightness": 100,
+            "textBrightness": 75,
+            "saturation": 100,
+            "density": "normal",
+            "interval": 60
+          }
+        },
+        "light": {
+          "clear": {
+            "enabled": true,
+            "opacity": 15,
+            "glass": 15,
+            "tableGlass": 5,
+            "drawerGlass": 24,
+            "borderGlass": 10,
+            "navGlass": 8,
+            "photoBlur": 0,
+            "panelBlur": 0,
+            "brightness": 100,
+            "textBrightness": 75,
+            "saturation": 100,
+            "density": "normal",
+            "interval": 60
+          },
+          "glass": {
+            "enabled": true,
+            "opacity": 60,
+            "glass": 63,
+            "tableGlass": 22,
+            "drawerGlass": 24,
+            "borderGlass": 18,
+            "navGlass": 16,
+            "photoBlur": 0,
+            "panelBlur": 8,
+            "brightness": 106,
+            "textBrightness": 75,
+            "saturation": 108,
+            "density": "normal",
+            "interval": 60
+          },
+          "photo": {
+            "enabled": true,
+            "opacity": 85,
+            "glass": 92,
+            "tableGlass": 70,
+            "drawerGlass": 24,
+            "borderGlass": 77,
+            "navGlass": 70,
+            "photoBlur": 0,
+            "panelBlur": 4,
+            "brightness": 100,
+            "textBrightness": 75,
+            "saturation": 100,
+            "density": "normal",
+            "interval": 60
+          }
+        },
+        "dark": {
+          "clear": {
+            "enabled": true,
+            "opacity": 15,
+            "glass": 15,
+            "tableGlass": 5,
+            "drawerGlass": 24,
+            "borderGlass": 10,
+            "navGlass": 8,
+            "photoBlur": 0,
+            "panelBlur": 0,
+            "brightness": 100,
+            "textBrightness": 75,
+            "saturation": 100,
+            "density": "normal",
+            "interval": 60
+          },
+          "glass": {
+            "enabled": true,
+            "opacity": 60,
+            "glass": 63,
+            "tableGlass": 22,
+            "drawerGlass": 24,
+            "borderGlass": 18,
+            "navGlass": 16,
+            "photoBlur": 0,
+            "panelBlur": 8,
+            "brightness": 106,
+            "textBrightness": 75,
+            "saturation": 108,
+            "density": "normal",
+            "interval": 60
+          },
+          "photo": {
+            "enabled": true,
+            "opacity": 85,
+            "glass": 92,
+            "tableGlass": 70,
+            "drawerGlass": 24,
+            "borderGlass": 77,
+            "navGlass": 70,
+            "photoBlur": 0,
+            "panelBlur": 4,
+            "brightness": 100,
+            "textBrightness": 75,
+            "saturation": 100,
+            "density": "normal",
+            "interval": 60
+          }
+        }
+      }
+    },
+    "scoring": {
+      "old": {
+        "pointFactors": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "8": 8,
+          "10": 10,
+          "olympics": 10
+        },
+        "pointCutoffs": {
+          "1": 10,
+          "2": 15,
+          "3": 20,
+          "4": 25,
+          "5": 30,
+          "8": 40,
+          "10": 50,
+          "olympics": 50
+        },
+        "qualificationBonuses": {
+          "national": 50,
+          "europe": 500,
+          "world": 750,
+          "olympics": 1000
+        },
+        "qualityPreset": {
+          "starts": 5,
+          "nationalBonus": 100
+        }
+      },
+      "v2": {
+        "pointFactors": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "8": 8,
+          "10": 10,
+          "olympics": 10
+        },
+        "pointCutoffs": {
+          "1": 10,
+          "2": 15,
+          "3": 20,
+          "4": 25,
+          "5": 30,
+          "8": 40,
+          "10": 50,
+          "olympics": 50
+        },
+        "qualificationBonuses": {
+          "national": 50,
+          "europe": 500,
+          "world": 750,
+          "olympics": 1000
+        },
+        "qualityPreset": {
+          "starts": 5,
+          "nationalBonus": 100
+        }
+      }
+    },
+    "workspace": {},
+    "years": {}
+  },
+  "ui": {},
+  "program": {}
+}
