@@ -2,13 +2,13 @@
   "schemaVersion": 1,
   "application": "asc-jahreswertung",
   "repository": "vkgnvx8w6t-spec/asc-jahresauswertung",
-  "release": "4.38",
+  "release": "4.39",
   "keyId": "24e1fe7496ac3b3b",
   "algorithm": "AES-256-GCM",
-  "nonce": "4BJT8UtQyODWIHyB",
-  "path": "patches/63d939680eb2eca6fa45f0e57956f3282977b22b96b80de0d25ebf8cc6e5e5fc.ascpatch",
-  "ciphertextSha256": "63d939680eb2eca6fa45f0e57956f3282977b22b96b80de0d25ebf8cc6e5e5fc",
-  "plaintextSha256": "850edecfe7d68c81783cc72b467e406299a222b475cb466e7a1f2f802d6445b9",
-  "bytes": 529216,
-  "signature": "emXIm85Kuv8LsqurAIE0Qcf3u+E3lAlskfZ3D/zD0p0goXP9L9/ndjdS1YeTVQQ9dfNMBcu2gn2dgJZI7roFDQ=="
+  "nonce": "jRXtTFCZaQhbwM4O",
+  "path": "patches/2b14ec0a30b6ee824863af3a14a83ee2d00053954682c965aefabf6a933ee3ff.ascpatch",
+  "ciphertextSha256": "2b14ec0a30b6ee824863af3a14a83ee2d00053954682c965aefabf6a933ee3ff",
+  "plaintextSha256": "0395c4912d2b3339df31b249233b6f614ad928c0a2635651c1fab5274b34a5c2",
+  "bytes": 529924,
+  "signature": "ExevrJrmBDVvEBE0lLAi9Hlkn4VSp3m/W7XVplIesKlr+YV4Ua603Es4hxWbvCi3DMHN7T8pBqPBcOuFkJPWDg=="
 }
