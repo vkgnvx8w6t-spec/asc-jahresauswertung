@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "fc85bd9a-7661-469e-b0c9-2b58031d3fbb",
-  "revision": "6",
+  "revision": "7",
   "label": "Gerät FC85BD9A",
   "settings": {
     "design": {
@@ -46,11 +46,11 @@
           "photo": {
             "enabled": true,
             "opacity": 85,
-            "glass": 92,
-            "tableGlass": 70,
+            "glass": 65,
+            "tableGlass": 65,
             "drawerGlass": 24,
             "borderGlass": 77,
-            "navGlass": 70,
+            "navGlass": 65,
             "photoBlur": 0,
             "panelBlur": 4,
             "brightness": 100,
