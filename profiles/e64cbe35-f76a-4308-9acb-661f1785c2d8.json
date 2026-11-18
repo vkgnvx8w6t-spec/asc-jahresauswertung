@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "e64cbe35-f76a-4308-9acb-661f1785c2d8",
-  "revision": "9",
+  "revision": "10",
   "label": "Gerät E64CBE35",
   "settings": {
     "design": {
@@ -367,7 +367,7 @@
           "includePartial": false,
           "teamReduction": false
         },
-        "model": "old",
+        "model": "v2",
         "teamFactor": 0.25,
         "groups": [
           "U16",
