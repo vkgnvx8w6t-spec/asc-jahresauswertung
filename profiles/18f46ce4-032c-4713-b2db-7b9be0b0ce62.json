@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "deviceId": "18f46ce4-032c-4713-b2db-7b9be0b0ce62",
+  "revision": "1",
+  "label": "Gerät 18F46CE4",
+  "settings": {
+    "design": {
+      "theme": "system",
+      "templates": {
+        "system": "glass"
+      },
+      "profiles": {
+        "system": {
+          "glass": {
+            "enabled": true,
+            "opacity": 35,
+            "glass": 75,
+            "panelBlur": 0,
+            "brightness": 100,
+            "textBrightness": 75
+          }
+        }
+      }
+    }
+  },
+  "ui": {},
+  "program": {}
+}
