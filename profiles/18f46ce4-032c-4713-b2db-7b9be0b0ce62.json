@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "18f46ce4-032c-4713-b2db-7b9be0b0ce62",
-  "revision": "2",
+  "revision": "3",
   "label": "Gerät 18F46CE4",
   "settings": {
     "design": {
@@ -143,7 +143,7 @@
             "glass": 92,
             "tableGlass": 70,
             "drawerGlass": 24,
-            "borderGlass": 77,
+            "borderGlass": 78,
             "navGlass": 70,
             "photoBlur": 0,
             "panelBlur": 4,
