@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "deviceId": "fc85bd9a-7661-469e-b0c9-2b58031d3fbb",
+  "revision": "1",
+  "label": "Gerät FC85BD9A",
+  "settings": {
+    "design": {
+      "theme": "system",
+      "templates": {
+        "system": "glass"
+      },
+      "profiles": {
+        "system": {
+          "glass": {
+            "enabled": true,
+            "opacity": 35,
+            "glass": 75,
+            "panelBlur": 0,
+            "brightness": 100,
+            "textBrightness": 75
+          }
+        }
+      }
+    }
+  },
+  "ui": {},
+  "program": {}
+}
