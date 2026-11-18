@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "deviceId": "fc85bd9a-7661-469e-b0c9-2b58031d3fbb",
-  "revision": "12",
+  "revision": "13",
   "label": "Gerät FC85BD9A",
   "settings": {
     "design": {
       "theme": "light",
       "templates": {
         "system": "photo",
-        "light": "glass",
+        "light": "photo",
         "dark": "glass"
       },
       "profiles": {
