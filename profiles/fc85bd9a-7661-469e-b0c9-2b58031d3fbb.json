@@ -1,26 +1,178 @@
 {
   "schemaVersion": 1,
   "deviceId": "fc85bd9a-7661-469e-b0c9-2b58031d3fbb",
-  "revision": "1",
+  "revision": "2",
   "label": "Gerät FC85BD9A",
   "settings": {
     "design": {
       "theme": "system",
       "templates": {
-        "system": "glass"
+        "system": "glass",
+        "light": "glass",
+        "dark": "glass"
       },
       "profiles": {
         "system": {
           "glass": {
             "enabled": true,
             "opacity": 35,
-            "glass": 75,
+            "glass": 25,
+            "panelBlur": 16,
+            "brightness": 100,
+            "textBrightness": 75,
+            "tableGlass": 35,
+            "drawerGlass": 24,
+            "borderGlass": 48,
+            "navGlass": 38,
+            "photoBlur": 0,
+            "saturation": 90,
+            "density": "normal"
+          },
+          "clear": {
+            "enabled": true,
+            "opacity": 15,
+            "glass": 15,
+            "tableGlass": 5,
+            "drawerGlass": 24,
+            "borderGlass": 10,
+            "navGlass": 8,
+            "photoBlur": 0,
             "panelBlur": 0,
             "brightness": 100,
-            "textBrightness": 75
+            "textBrightness": 75,
+            "saturation": 100,
+            "density": "normal"
+          },
+          "photo": {
+            "enabled": true,
+            "opacity": 85,
+            "glass": 92,
+            "tableGlass": 70,
+            "drawerGlass": 24,
+            "borderGlass": 77,
+            "navGlass": 70,
+            "photoBlur": 0,
+            "panelBlur": 4,
+            "brightness": 100,
+            "textBrightness": 75,
+            "saturation": 100,
+            "density": "normal"
+          }
+        },
+        "light": {
+          "clear": {
+            "enabled": true,
+            "opacity": 15,
+            "glass": 15,
+            "tableGlass": 5,
+            "drawerGlass": 24,
+            "borderGlass": 10,
+            "navGlass": 8,
+            "photoBlur": 0,
+            "panelBlur": 0,
+            "brightness": 100,
+            "textBrightness": 75,
+            "saturation": 100,
+            "density": "normal"
+          },
+          "glass": {
+            "enabled": true,
+            "opacity": 45,
+            "glass": 75,
+            "tableGlass": 35,
+            "drawerGlass": 24,
+            "borderGlass": 48,
+            "navGlass": 38,
+            "photoBlur": 2,
+            "panelBlur": 16,
+            "brightness": 105,
+            "textBrightness": 75,
+            "saturation": 90,
+            "density": "normal"
+          },
+          "photo": {
+            "enabled": true,
+            "opacity": 85,
+            "glass": 92,
+            "tableGlass": 70,
+            "drawerGlass": 24,
+            "borderGlass": 77,
+            "navGlass": 70,
+            "photoBlur": 0,
+            "panelBlur": 4,
+            "brightness": 100,
+            "textBrightness": 75,
+            "saturation": 100,
+            "density": "normal"
+          }
+        },
+        "dark": {
+          "clear": {
+            "enabled": true,
+            "opacity": 15,
+            "glass": 15,
+            "tableGlass": 5,
+            "drawerGlass": 24,
+            "borderGlass": 10,
+            "navGlass": 8,
+            "photoBlur": 0,
+            "panelBlur": 0,
+            "brightness": 100,
+            "textBrightness": 75,
+            "saturation": 100,
+            "density": "normal"
+          },
+          "glass": {
+            "enabled": true,
+            "opacity": 45,
+            "glass": 75,
+            "tableGlass": 35,
+            "drawerGlass": 24,
+            "borderGlass": 48,
+            "navGlass": 38,
+            "photoBlur": 2,
+            "panelBlur": 16,
+            "brightness": 105,
+            "textBrightness": 75,
+            "saturation": 90,
+            "density": "normal"
+          },
+          "photo": {
+            "enabled": true,
+            "opacity": 85,
+            "glass": 92,
+            "tableGlass": 70,
+            "drawerGlass": 24,
+            "borderGlass": 77,
+            "navGlass": 70,
+            "photoBlur": 0,
+            "panelBlur": 4,
+            "brightness": 100,
+            "textBrightness": 75,
+            "saturation": 100,
+            "density": "normal"
           }
         }
       }
+    },
+    "junior": {
+      "countMode": "all",
+      "progressive": false,
+      "teamReduction": false,
+      "teamFactor": 0.5,
+      "pointFactors": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4
+      },
+      "gender": "all",
+      "groups": [
+        "U8",
+        "U10",
+        "U12",
+        "U14"
+      ]
     }
   },
   "ui": {},
