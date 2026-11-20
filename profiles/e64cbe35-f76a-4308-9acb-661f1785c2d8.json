@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "e64cbe35-f76a-4308-9acb-661f1785c2d8",
-  "revision": "18",
+  "revision": "19",
   "label": "Gerät E64CBE35",
   "settings": {
     "design": {
@@ -265,11 +265,13 @@
           "all": {
             "scope": "custom",
             "years": [
+              2025,
               2026
             ]
           }
         }
-      }
+      },
+      "bestlistsStartgemeinschaft": false
     },
     "years": {
       "2022": {
