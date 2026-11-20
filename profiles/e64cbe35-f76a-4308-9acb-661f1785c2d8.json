@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "e64cbe35-f76a-4308-9acb-661f1785c2d8",
-  "revision": "28",
+  "revision": "29",
   "label": "Gerät E64CBE35",
   "settings": {
     "design": {
@@ -232,7 +232,7 @@
     },
     "workspace": {
       "view": "bestlists",
-      "bestlistsMode": "stg-team",
+      "bestlistsMode": "online",
       "bestlistsAge": "",
       "bestlistsGender": "male",
       "year": 2026,
@@ -282,7 +282,7 @@
           }
         }
       },
-      "bestlistsStartgemeinschaft": true,
+      "bestlistsStartgemeinschaft": false,
       "stgExcludedPeople": {
         "2026": [
           "93d677202faa0bb39397262644744794"
