@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "7841746c-9fde-4782-b70b-36816ff0c841",
-  "revision": "3",
+  "revision": "4",
   "label": "Gerät 7841746C",
   "settings": {
     "design": {
@@ -232,7 +232,7 @@
     },
     "workspace": {
       "view": "bestlists",
-      "bestlistsMode": "online",
+      "bestlistsMode": "stg-team",
       "bestlistsAge": "",
       "bestlistsGender": "male",
       "year": 2026,
@@ -259,7 +259,23 @@
       "bestlistsAllScope": "all",
       "bestlistsAllYears": [],
       "bestlistsHistoricalInitialized": true,
-      "bestlistsAllDefault431": true
+      "bestlistsAllDefault431": true,
+      "bestlistsModeScopes": {
+        "online": {
+          "published": {
+            "scope": "custom",
+            "years": [
+              2026,
+              2025
+            ]
+          },
+          "all": {
+            "scope": "all",
+            "years": []
+          }
+        }
+      },
+      "bestlistsStartgemeinschaft": true
     },
     "years": {
       "2022": {
