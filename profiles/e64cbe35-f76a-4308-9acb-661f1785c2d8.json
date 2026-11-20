@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "e64cbe35-f76a-4308-9acb-661f1785c2d8",
-  "revision": "38",
+  "revision": "39",
   "label": "Gerät E64CBE35",
   "settings": {
     "design": {
@@ -231,7 +231,7 @@
       }
     },
     "workspace": {
-      "view": "ranking",
+      "view": "bestlists",
       "bestlistsMode": "online",
       "bestlistsAge": "",
       "bestlistsGender": "male",
