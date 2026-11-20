@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "7841746c-9fde-4782-b70b-36816ff0c841",
-  "revision": "1",
+  "revision": "2",
   "label": "Gerät 7841746C",
   "settings": {
     "design": {
@@ -231,7 +231,7 @@
       }
     },
     "workspace": {
-      "view": "bestlists",
+      "view": "statistics",
       "bestlistsMode": "online",
       "bestlistsAge": "",
       "bestlistsGender": "male",
