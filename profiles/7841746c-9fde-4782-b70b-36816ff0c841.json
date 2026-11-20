@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "deviceId": "7841746c-9fde-4782-b70b-36816ff0c841",
-  "revision": "11",
+  "revision": "13",
   "label": "Gerät 7841746C",
   "settings": {
     "design": {
-      "theme": "dark",
+      "theme": "light",
       "templates": {
         "system": "photo",
         "light": "photo",
@@ -98,11 +98,11 @@
           "photo": {
             "enabled": true,
             "opacity": 85,
-            "glass": 70,
+            "glass": 50,
             "tableGlass": 50,
-            "drawerGlass": 24,
-            "borderGlass": 77,
-            "navGlass": 70,
+            "drawerGlass": 60,
+            "borderGlass": 70,
+            "navGlass": 50,
             "photoBlur": 0,
             "panelBlur": 4,
             "brightness": 100,
