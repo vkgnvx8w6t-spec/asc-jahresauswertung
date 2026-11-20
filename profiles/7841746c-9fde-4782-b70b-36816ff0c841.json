@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "7841746c-9fde-4782-b70b-36816ff0c841",
-  "revision": "4",
+  "revision": "5",
   "label": "Gerät 7841746C",
   "settings": {
     "design": {
@@ -232,7 +232,7 @@
     },
     "workspace": {
       "view": "bestlists",
-      "bestlistsMode": "stg-team",
+      "bestlistsMode": "annual",
       "bestlistsAge": "",
       "bestlistsGender": "male",
       "year": 2026,
@@ -271,6 +271,12 @@
           },
           "all": {
             "scope": "all",
+            "years": []
+          }
+        },
+        "stg": {
+          "all": {
+            "scope": "last2",
             "years": []
           }
         }
