@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "deviceId": "abc764fa-fb84-41fe-9460-aa95b0d4a679",
+  "revision": "1",
+  "label": "Gerät ABC764FA",
+  "settings": {
+    "design": {
+      "theme": "dark",
+      "templates": {
+        "system": "photo",
+        "light": "photo",
+        "dark": "photo"
+      },
+      "profiles": {
+        "system": {
+          "clear": {
+            "enabled": true,
+            "opacity": 15,
+            "glass": 15,
+            "tableGlass": 5,
+            "drawerGlass": 24,
+            "borderGlass": 10,
+            "navGlass": 8,
+            "photoBlur": 0,
+            "panelBlur": 0,
+            "brightness": 100,
+            "textBrightness": 60,
+            "saturation": 100,
+            "density": "normal",
+            "interval": 60
+          },
+          "glass": {
+            "enabled": true,
+            "opacity": 45,
+            "glass": 75,
+            "tableGlass": 35,
+            "drawerGlass": 24,
+            "borderGlass": 48,
+            "navGlass": 38,
+            "photoBlur": 2,
+            "panelBlur": 16,
+            "brightness": 105,
+            "textBrightness": 60,
+            "saturation": 90,
+            "density": "normal",
+            "interval": 60
+          },
+          "photo": {
+            "enabled": true,
+            "opacity": 85,
+            "glass": 90,
+            "tableGlass": 60,
+            "drawerGlass": 30,
+            "borderGlass": 70,
+            "navGlass": 60,
+            "photoBlur": 0,
+            "panelBlur": 5,
+            "brightness": 110,
+            "textBrightness": 60,
+            "saturation": 120,
+            "density": "normal",
+            "interval": 60
+          }
+        },
+        "light": {
+          "clear": {
+            "enabled": true,
+            "opacity": 15,
+            "glass": 15,
+            "tableGlass": 5,
+            "drawerGlass": 24,
+            "borderGlass": 10,
+            "navGlass": 8,
+            "photoBlur": 0,
+            "panelBlur": 0,
+            "brightness": 100,
+            "textBrightness": 60,
+            "saturation": 100,
+            "density": "normal",
+            "interval": 60
+          },
+          "glass": {
+            "enabled": true,
+            "opacity": 45,
+            "glass": 75,
+            "tableGlass": 35,
+            "drawerGlass": 24,
+            "borderGlass": 48,
+            "navGlass": 38,
+            "photoBlur": 2,
+            "panelBlur": 16,
+            "brightness": 105,
+            "textBrightness": 60,
+            "saturation": 90,
+            "density": "normal",
+            "interval": 60
+          },
+          "photo": {
+            "enabled": true,
+            "opacity": 85,
+            "glass": 70,
+            "tableGlass": 50,
+            "drawerGlass": 24,
+            "borderGlass": 77,
+            "navGlass": 70,
+            "photoBlur": 0,
+            "panelBlur": 4,
+            "brightness": 100,
+            "textBrightness": 60,
+            "saturation": 100,
+            "density": "normal",
+            "interval": 60
+          }
+        },
+        "dark": {
+          "clear": {
+            "enabled": true,
+            "opacity": 15,
+            "glass": 15,
+            "tableGlass": 5,
+            "drawerGlass": 24,
+            "borderGlass": 10,
+            "navGlass": 8,
+            "photoBlur": 0,
+            "panelBlur": 0,
+            "brightness": 100,
+            "textBrightness": 60,
+            "saturation": 100,
+            "density": "normal",
+            "interval": 60
+          },
+          "glass": {
+            "enabled": true,
+            "opacity": 45,
+            "glass": 75,
+            "tableGlass": 35,
+            "drawerGlass": 24,
+            "borderGlass": 48,
+            "navGlass": 38,
+            "photoBlur": 2,
+            "panelBlur": 16,
+            "brightness": 105,
+            "textBrightness": 60,
+            "saturation": 90,
+            "density": "normal",
+            "interval": 60
+          },
+          "photo": {
+            "enabled": true,
+            "opacity": 85,
+            "glass": 92,
+            "tableGlass": 70,
+            "drawerGlass": 24,
+            "borderGlass": 77,
+            "navGlass": 70,
+            "photoBlur": 0,
+            "panelBlur": 5,
+            "brightness": 110,
+            "textBrightness": 60,
+            "saturation": 100,
+            "density": "normal",
+            "interval": 60
+          }
+        }
+      }
+    },
+    "scoring": {
+      "old": {
+        "pointFactors": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "8": 6,
+          "10": 7,
+          "olympics": 7
+        },
+        "pointCutoffs": {
+          "1": 10,
+          "2": 15,
+          "3": 20,
+          "4": 25,
+          "5": 30,
+          "8": 40,
+          "10": 50,
+          "olympics": 50
+        },
+        "qualificationBonuses": {
+          "national": 100,
+          "europe": 500,
+          "world": 750,
+          "olympics": 1000
+        },
+        "qualityPreset": {
+          "starts": 5,
+          "nationalBonus": 100
+        }
+      },
+      "v2": {
+        "pointFactors": {
+          "1": 1,
+          "2": 2.5,
+          "3": 5,
+          "4": 10,
+          "5": 25,
+          "8": 50,
+          "10": 100,
+          "olympics": 100
+        },
+        "pointCutoffs": {
+          "1": 10,
+          "2": 15,
+          "3": 20,
+          "4": 25,
+          "5": 35,
+          "8": 50,
+          "10": 100,
+          "olympics": 100
+        },
+        "qualificationBonuses": {
+          "national": 50,
+          "europe": 300,
+          "world": 500,
+          "olympics": 750
+        },
+        "qualityPreset": {
+          "starts": 10,
+          "nationalBonus": 100
+        }
+      }
+    },
+    "workspace": {
+      "view": "bestlists",
+      "bestlistsMode": "online",
+      "bestlistsAge": "",
+      "bestlistsGender": "male",
+      "year": 2026,
+      "bestlistsStatus": "",
+      "exportSort": "importance",
+      "resultSort": "importance",
+      "showExcludedResults": false,
+      "pointLevel": 10,
+      "statisticsProofsOpen": true,
+      "bestlistsAges": [
+        "MU18"
+      ],
+      "bestlistsScope": "all",
+      "bestlistsYears": [],
+      "bestlistsChangesOpen": true,
+      "bestlistsBasis": "all",
+      "bestlistsAllAges": false,
+      "bestlistsScopeInitialized": true,
+      "bestlistsPublishedScope": "custom",
+      "bestlistsPublishedYears": [
+        2026,
+        2025
+      ],
+      "bestlistsAllScope": "all",
+      "bestlistsAllYears": [],
+      "bestlistsHistoricalInitialized": true,
+      "bestlistsAllDefault431": true
+    },
+    "years": {
+      "2022": {
+        "model": "v2",
+        "qualificationWindow": "season",
+        "standardCountMode": "all",
+        "rulesOld": {
+          "progressive": false,
+          "qualification": false,
+          "multipleDaily": false,
+          "samePerformance": false,
+          "includePartial": false,
+          "teamReduction": false
+        },
+        "groups": [
+          "U14",
+          "U16",
+          "U18",
+          "U20"
+        ],
+        "daily": false,
+        "teamFactor": 0.5,
+        "rules": {
+          "progressive": true,
+          "qualification": true,
+          "multipleDaily": false,
+          "samePerformance": true,
+          "includePartial": false,
+          "teamReduction": false
+        },
+        "gender": "male",
+        "countMode": "all"
+      },
+      "2023": {
+        "model": "v2",
+        "qualificationWindow": "season",
+        "standardCountMode": "all",
+        "rulesOld": {
+          "progressive": false,
+          "qualification": false,
+          "multipleDaily": false,
+          "samePerformance": false,
+          "includePartial": false,
+          "teamReduction": false
+        },
+        "groups": [
+          "U14",
+          "U16",
+          "U18",
+          "U20"
+        ],
+        "daily": false,
+        "teamFactor": 0.5,
+        "rules": {
+          "progressive": true,
+          "qualification": true,
+          "multipleDaily": false,
+          "samePerformance": true,
+          "includePartial": false,
+          "teamReduction": false
+        },
+        "gender": "male",
+        "countMode": "all"
+      },
+      "2025": {
+        "model": "v2",
+        "qualificationWindow": "season",
+        "rulesOld": {
+          "progressive": false,
+          "qualification": false,
+          "multipleDaily": false,
+          "samePerformance": false,
+          "includePartial": false,
+          "teamReduction": false
+        },
+        "groups": [
+          "U14",
+          "U16",
+          "U18",
+          "U20"
+        ],
+        "daily": false,
+        "teamFactor": 0.5,
+        "rules": {
+          "progressive": true,
+          "qualification": true,
+          "multipleDaily": true,
+          "samePerformance": true,
+          "includePartial": false,
+          "teamReduction": false
+        },
+        "gender": "male",
+        "countMode": "meet"
+      },
+      "2026": {
+        "model": "old",
+        "qualificationWindow": "season",
+        "standardCountMode": "meet",
+        "rulesOld": {
+          "progressive": false,
+          "qualification": false,
+          "multipleDaily": false,
+          "samePerformance": false,
+          "includePartial": false,
+          "teamReduction": false
+        },
+        "groups": [
+          "U16",
+          "U18",
+          "U20"
+        ],
+        "daily": false,
+        "teamFactor": 0.25,
+        "rules": {
+          "progressive": true,
+          "qualification": true,
+          "multipleDaily": false,
+          "samePerformance": true,
+          "includePartial": false,
+          "teamReduction": false
+        },
+        "gender": "male",
+        "countMode": "meet"
+      }
+    }
+  },
+  "ui": {},
+  "program": {}
+}
