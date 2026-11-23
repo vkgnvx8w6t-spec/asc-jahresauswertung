@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "7ffd61a8-6181-42d4-a61c-57069a680e56",
-  "revision": "1",
+  "revision": "2",
   "label": "Gerät 7FFD61A8",
   "settings": {
     "design": {
@@ -169,7 +169,6 @@
       "gender": "all",
       "groups": [
         "U8",
-        "U10",
         "U12",
         "U14"
       ]
