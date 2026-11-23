@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "abc764fa-fb84-41fe-9460-aa95b0d4a679",
-  "revision": "8",
+  "revision": "9",
   "label": "Gerät ABC764FA",
   "settings": {
     "design": {
@@ -325,7 +325,7 @@
         "countMode": "all"
       },
       "2025": {
-        "model": "v2",
+        "model": "old",
         "qualificationWindow": "season",
         "rulesOld": {
           "progressive": false,
@@ -352,7 +352,8 @@
           "teamReduction": false
         },
         "gender": "male",
-        "countMode": "meet"
+        "countMode": "meet",
+        "standardCountMode": "meet"
       },
       "2026": {
         "model": "old",
