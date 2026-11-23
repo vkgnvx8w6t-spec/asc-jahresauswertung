@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "fc85bd9a-7661-469e-b0c9-2b58031d3fbb",
-  "revision": "22",
+  "revision": "23",
   "label": "Gerät FC85BD9A",
   "settings": {
     "design": {
@@ -156,7 +156,7 @@
       }
     },
     "junior": {
-      "countMode": "all",
+      "countMode": "meet",
       "progressive": false,
       "teamReduction": false,
       "teamFactor": 0.5,
