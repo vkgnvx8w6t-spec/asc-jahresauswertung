@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "abc764fa-fb84-41fe-9460-aa95b0d4a679",
-  "revision": "12",
+  "revision": "13",
   "label": "Gerät ABC764FA",
   "settings": {
     "design": {
@@ -231,11 +231,11 @@
       }
     },
     "workspace": {
-      "view": "sources",
+      "view": "ranking",
       "bestlistsMode": "online",
       "bestlistsAge": "",
       "bestlistsGender": "male",
-      "year": 2025,
+      "year": 2026,
       "bestlistsStatus": "",
       "exportSort": "importance",
       "resultSort": "importance",
