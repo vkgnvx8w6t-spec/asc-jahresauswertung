@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "7841746c-9fde-4782-b70b-36816ff0c841",
-  "revision": "15",
+  "revision": "16",
   "label": "Gerät 7841746C",
   "settings": {
     "design": {
@@ -238,7 +238,7 @@
       "year": 2025,
       "bestlistsStatus": "",
       "exportSort": "importance",
-      "resultSort": "importance",
+      "resultSort": "newest",
       "showExcludedResults": false,
       "pointLevel": 10,
       "statisticsProofsOpen": true,
