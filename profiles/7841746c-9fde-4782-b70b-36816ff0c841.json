@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "deviceId": "7841746c-9fde-4782-b70b-36816ff0c841",
-  "revision": "30",
+  "revision": "31",
   "label": "Gerät 7841746C",
   "settings": {
     "design": {
@@ -381,7 +381,7 @@
       "2026": {
         "teamFactor": 0.25,
         "model": "old",
-        "standardCountMode": "all",
+        "standardCountMode": "meet",
         "daily": false,
         "gender": "male",
         "groups": [
@@ -398,7 +398,7 @@
           "teamReduction": false
         },
         "qualificationWindow": "season",
-        "countMode": "all",
+        "countMode": "meet",
         "rulesOld": {
           "progressive": false,
           "qualification": false,
